@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  image-rendering: pixelated;
+}
+
+.phone {
+  width: 320px;
+  height: 600px;
+  background: #222;
+  border: 8px solid #555;
+  box-shadow: 0 0 0 4px black;
+  color: white;
+}
+
+.top {
+  padding: 15px;
+  background: #000;
+  text-align: center;
+  border-bottom: 4px solid #555;
+}
+
+.messages {
+  height: 430px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.msg {
+  background: #333;
+  padding: 10px;
+  border: 2px solid #666;
+}
+
+button {
+  width: 90%;
+  margin: 5px 5%;
+  padding: 10px;
+  background: #111;
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+}
